@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>furniture</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <section id="header" class="content">
+    <div class="inner">
+      <div class="logo"><a href="#">LOGO</a></div>
+      <div class="nav_wrap">
+        <nav class="gnb_wrap">
+          <ul id="gnb">
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#">PORTFOLIO</a>
+              <span></span>
+              <ul class="portfolio sub_wrap">
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Full Width Gallery</a></li>
+                <li><a href="#">Masonry Gallery</a></li>
+                <li><a href="#">Full Width Masonry Gallery</a></li>
+                <li><a href="#">Single Gallery</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">BLOG</a>
+              <span></span>
+              <ul class="blog sub_wrap">
+                <li><a href="#">Classic Blog</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Post</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SHOP</a>
+              <span></span>
+              <ul class="shop sub_wrap">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Single product</a></li>
+                <li><a href="#">Cart Page</a></li>
+                <li><a href="#">Checkout</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">RECENT PROJECTS</a>
+              <div class="recent sub_wrap">
+                <h4 class="title">RECENT PROJECTS</h4>
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <img src="img/gnb_1.jpg" alt="">
+                        <div class="hover">
+                          <i class="fas fa-search-plus"></i>
+                          <p class="txt">project #1</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <img src="img/gnb_2.jpg" alt="">
+                        <div class="hover">
+                          <i class="fas fa-search-plus"></i>
+                          <p class="txt">project #2</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <img src="img/gnb_3.jpg" alt="">
+                        <div class="hover">
+                          <i class="fas fa-search-plus"></i>
+                          <p class="txt">project #3</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <img src="img/gnb_4.jpg" alt="">
+                        <div class="hover">
+                          <i class="fas fa-search-plus"></i>
+                          <p class="txt">project #4</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <img src="img/gnb_5.jpg" alt="">
+                        <div class="hover">
+                          <i class="fas fa-search-plus"></i>
+                          <p class="txt">project #5</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <img src="img/gnb_6.jpg" alt="">
+                        <div class="hover">
+                          <i class="fas fa-search-plus"></i>
+                          <p class="txt">project #6</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle"><i class="fas fa-bars"></i></div>
+        <div class="etc_wrap">
+          <ul class="etc">
+            <li class="cart">
+              <a href="#" class="btn"><i class="fas fa-shopping-cart"></i></a>
+              <div class="cart_wrap">
+                <div class="etc_header">
+                  <p class="product">in cart: 2 products</p>
+                  <p class="price">total price: $524</p>
+                </div>
+                <ul class="cart_cont_wrap">
+                  <li>
+                    <div class="pic"><a href="#"><img src="img/cart_1.png" alt=""></a></div>
+                    <div class="info">
+                      <div class="name"><a href="#">LOREM IPSUM</a></div>
+                      <div class="quantity">
+                        <input class="cart_form" type="number" value="1" min="1" max="1000">
+                          <span class="arrow up"></span>
+                          <span class="arrow down"></span>
+                      </div>
+                      <p class="price">$289</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pic"><a href="#"><img src="img/cart_2.png" alt=""></a></div>
+                    <div class="info">
+                      <div class="name"><a href="#">LOREM IPSUM</a></div>
+                      <div class="quantity">
+                        <input class="cart_form" type="number" value="1" min="1" max="1000">
+                          <span class="arrow up"></span>
+                          <span class="arrow down"></span>
+                      </div>
+                      <p class="price">$235</p>
+                    </div>
+                  </li>
+                </ul>
+                <div class="btn_wrap">
+                  <a href="#" class="cart">go to cart</a>
+                  <a href="#" class="checkout">checkout</a>
+                </div>
+              </div>
+            </li>
+            <li class="search">
+              <a href="#" class="search_btn"></a>
+              <form method="GET" class="search_wrap">
+                <div class="form_wrap">
+                  <label for="search" class="search_label">Search...</label>
+                  <input id="search" class="search_form" type="text" autocomplete="off">
+                  <button class="btn" type="submit"></button>
+                </div>
+              </form>
+            </li>
+            <li class="more">
+              <a href="#"><i class="fas fa-bars"></i></a>
+              <div class="more_wrap">
+                <div class="more_wrap_contents">
+                  <div class="exit">
+                    <div class="btn">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <h3 class="title">follow us</h3>
+                  <p class="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptate modi, voluptates harum doloribus distinctio temporibus repudiandae ipsa nulla accusantium ipsam repellat praesentium.</p>
+                  <div class="pic_wrap">
+                    <a href="#" class="pic">
+                      <img src="img/recent_1.jpg" alt="">
+                      <div class="hover">
+                        <i class="fas fa-search-plus"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="pic">
+                      <img src="img/recent_2.jpg" alt="">
+                      <div class="hover">
+                        <i class="fas fa-search-plus"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="pic">
+                      <img src="img/recent_3.jpg" alt="">
+                      <div class="hover">
+                        <i class="fas fa-search-plus"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="pic">
+                      <img src="img/recent_4.jpg" alt="">
+                      <div class="hover">
+                        <i class="fas fa-search-plus"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="pic">
+                      <img src="img/recent_5.jpg" alt="">
+                      <div class="hover">
+                        <i class="fas fa-search-plus"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="pic">
+                      <img src="img/recent_6.jpg" alt="">
+                      <div class="hover">
+                        <i class="fas fa-search-plus"></i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#" class="tel"><i class="fas fa-phone"></i><span>+82 000-0000</span></a>
+                    <a href="#" class="address"><i class="fas fa-location-arrow"></i><span>4730 Crystal Springs Dr,<br>Los Angeles, CA 90027</span></a>
+                    <a href="#" class="mail"><i class="fas fa-envelope"></i><span>dvz1289@naver.com</span></a>
+                  </div>
+                  <ul class="sns">
+                    <li><a href="#"><i class="fab fa-facebook-f"></a></i></li>
+                    <li><a href="#"><i class="fab fa-twitter"></a></i></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></a></i></li>
+                    <li><a href="#"><i class="fab fa-instagram"></a></i></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></a></i></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="visual" class="content">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(img/visual_1.jpg);">
+          <div class="in">
+            <div class="title">
+              <p class="first">Highest quality</p>
+              <p class="second">flooring solutions</p>
+            </div>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nobis labore quae consequuntur exercitationem molestiae aspernatur.</p>
+            <div class="button"><a href="#" class="btn"><span>SHOP NOW</span></a></div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(img/visual_2.jpg);">
+          <div class="in">
+            <div class="title">
+              <p class="first">Professionals</p>
+              <p class="second">You can rely on</p>
+            </div>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nobis labore quae consequuntur exercitationem molestiae aspernatur.</p>
+            <div class="button"><a href="#" class="btn"><span>SHOP NOW</span></a></div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(img/visual_3.jpg);">
+          <div class="in">
+            <div class="title">
+              <p class="first">Unique and</p>
+              <p class="second">affordable</p>
+            </div>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nobis labore quae consequuntur exercitationem molestiae aspernatur.</p>
+            <div class="button"><a href="#" class="btn"><span>SHOP NOW</span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section id="offer" class="content">
+    <div class="inner">
+      <h3 class="title moving_scroll"><span>What We Offer</span></h3>
+      <div class="spot_wrap">
+        <div class="main spotlight moving_scroll">
+          <div class="pic"><img src="img/offer_1.jpg" alt=""></div>
+          <a href="#" class="info_wrap">
+            <div class="info">
+              <p class="name">Natural Stone</p>
+              <div class="arrow"></div>
+            </div>
+          </a>
+          <div class="tag new">New</div>
+        </div>
+        <div class="part spotlight moving_scroll">
+          <div class="pic"><img src="img/offer_2.jpg" alt=""></div>
+          <a href="#" class="info_wrap">
+            <div class="info">
+              <p class="name">Hardwood</p>
+              <div class="arrow"></div>
+            </div>
+          </a>
+          <div class="tag discount">-30%</div>
+        </div>
+        <div class="sub spotlight moving_scroll">
+          <div class="pic"><img src="img/offer_3.jpg" alt=""></div>
+          <a href="#" class="info_wrap">
+            <div class="info">
+              <p class="name">Tile</p>
+              <div class="arrow"></div>
+            </div>
+          </a>
+        </div>
+        <div class="sub spotlight moving_scroll">
+          <div class="pic"><img src="img/offer_4.jpg" alt=""></div>
+          <a href="#" class="info_wrap">
+            <div class="info">
+              <p class="name">Carpet</p>
+              <div class="arrow"></div>
+            </div>
+          </a>
+        </div>
+        <div class="sub spotlight moving_scroll">
+          <div class="pic"><img src="img/offer_5.jpg" alt=""></div>
+          <a href="#" class="info_wrap">
+            <div class="info">
+              <p class="name">Laminate</p>
+              <div class="arrow"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="product" class="content">
+      <div class="inner">
+        <h3 class="title moving_scroll"><span>Trending Products</span></h3>
+        <div class="con">
+          <div class="example moving_scroll"><img src="img/example.jpg" alt=""></div>
+          <div class="product_wrap">
+            <div class="top top-left product moving_scroll">
+              <div class="pic">
+                <img src="img/product_1.png" alt="">  
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+              <div class="info">
+                <a href="#" class="name">Carrara Marble</a>
+                <p class="price old">$500.00</p>
+                <p class="price">$400.00</p>
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+            </div>
+            <div class="top top-right product moving_scroll">
+              <div class="pic">
+                <img src="img/product_2.png" alt="">
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+              <div class="info">
+                <a href="#" class="name">Polished Marble</a>
+                <p class="price">$150.00</p>
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+            </div>
+            <div class="bottom bottom-left product moving_scroll">
+              <div class="pic">
+                <img src="img/product_3.png" alt="">
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+              <div class="info">
+                <a href="#" class="name">Bastille Gray</a>
+                <p class="price">$520.00</p>
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+            </div>
+            <div class="bottom bottom-right product moving_scroll">
+              <div class="pic">
+                <img src="img/product_4.png" alt="">
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+              <div class="info">
+                <a href="#" class="name">Baycliff Caulfeild</a>
+                <p class="price">$350.00</p>
+                <a href="#" class="btn">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="etc">
+          <div class="elements moving_scroll">
+            <div class="contents">
+              <div class="pic"><i class="fas fa-plane"></i></div>
+              <div class="info">
+                <p class="main txt">FREE WORLDWIDE DELIVERY</p>
+                <p class="sub txt">When ordering from $300</p>
+              </div>
+            </div>
+          </div>
+          <div class="elements moving_scroll">
+            <div class="contents">
+              <div class="pic"><i class="fas fa-award"></i></div>
+              <div class="info">
+                <p class="main txt">High-Quality products</p>
+                <p class="sub txt">Award-winning flooring</p>
+              </div>
+            </div>
+          </div>
+          <div class="elements moving_scroll">
+            <div class="contents">
+              <div class="pic"><i class="fas fa-fire-alt"></i></div>
+              <div class="info">
+                <p class="main txt">-20% on new collections</p>
+                <p class="sub txt">Get your discount today!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project" class="content">
+    <div class="inner">
+      <h2 class="title moving_scroll"><span>BEST FLOORING PROJECTS</span></h2>
+      <div class="project_wrap">
+        <div class="top top-left project moving_scroll">
+          <div class="pic"><a href="#"><img src="img/project_1.jpg" alt=""></a></div>
+          <div class="info">
+            <div class="icon"><a href="#"><i class="fas fa-search-plus"></i></a></div>
+            <div class="txt"><a href="#">609 Madison Ave</a></div>
+          </div>
+        </div>
+        <div class="top top-center project moving_scroll">
+          <div class="pic"><a href="#"><img src="img/project_2.jpg" alt=""></a></div>
+          <div class="info">  
+            <div class="icon"><a href="#"><i class="fas fa-search-plus"></i></a></div>
+            <div class="txt"><a href="#">3100 Hackberry Ln</a></div>
+          </div>
+        </div>
+        <div class="top top-right project moving_scroll">
+          <div class="pic"><a href="#"><img src="img/project_3.jpg" alt=""></a></div>
+          <div class="info">
+            <div class="icon"><a href="#"><i class="fas fa-search-plus"></i></a></div>
+            <div class="txt"><a href="#">304 Pecan Ave</a></div>
+          </div>
+        </div>
+        <div class="bottom bottom-left project moving_scroll">
+          <div class="pic"><img src="img/project_4.jpg" alt=""></div>
+          <div class="info">
+            <div class="icon"><a href="#"><i class="fas fa-search-plus"></i></a></div>
+            <div class="txt"><a href="#">121 Lindenwood St</a></div>
+          </div>
+        </div>
+        <div class="bottom bottom-center project moving_scroll">
+          <div class="pic"><img src="img/project_5.jpg" alt=""></div>
+          <div class="info">
+            <div class="icon"><a href="#"><i class="fas fa-search-plus"></i></a></div>
+            <div class="txt"><a href="#">348 Lakewood Rd</a></div>
+          </div>
+        </div>
+        <div class="bottom bottom-right project moving_scroll">
+          <div class="pic"><img src="img/project_6.jpg" alt=""></div>
+          <div class="info">
+            <div class="icon"><a href="#"><i class="fas fa-search-plus"></i></a></div>
+            <div class="txt"><a href="#">2805 Hickory St</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="introduce" class="content" style="background-image: url(img/bg_1.jpg);">
+    <div class="inner moving_scroll">
+      <h2 class="title">
+        <span>GET NEW & AMAZING<br>FLOORING FROM US!</span>
+      </h2>
+      <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, similique! Sint pariatur voluptates reiciendis omnis aperiam qui provident accusantium aliquam aut delectus vero, temporibus quia mollitia, autem sapiente animi possimus?</p>
+      <a href="#" class="btn"><span>Shop Now</span></a>
+    </div>
+  </section>
+  <section id="about" class="content">
+    <div class="inner">
+      <h2 class="title moving_scroll"><span>About us</span></h2>
+      <div class="info moving_scroll">
+        <div class="counter_wrap">
+          <div class="counter_creat">
+            <div class="counter_creat_wrap">
+              <span class="counter" data-stop="12">12</span>
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3 class="counter_title">Awards</h3>
+          </div>
+        </div>
+        <div class="counter_wrap">
+          <div class="counter_creat">
+            <div class="counter_creat_wrap">
+              <span class="counter" data-stop="2">2</span>
+              <span class="symbol">k</span>
+              <i class="fas fa-archive"></i>
+            </div>
+            <h3 class="counter_title">Projects</h3>
+          </div>
+        </div>
+        <div class="counter_wrap">
+          <div class="counter_creat">
+            <div class="counter_creat_wrap">
+              <span class="counter" data-stop="679">679</span>
+              <i class="far fa-sun"></i>
+            </div>
+            <h3 class="counter_title">Happy clients</h3>
+          </div>
+        </div>
+        <div class="counter_wrap">
+          <div class="counter_creat">
+            <div class="counter_creat_wrap">
+              <span class="counter" data-stop="25">25</span>
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="counter_title">Team members</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="review" class="content">
+    <div class="inner">
+      <h2 class="title moving_scroll"><span>what people say</span></h2>
+      <div class="swiper">
+        <div class="swiper-wrapper" style="transition-duration: 0">
+          <div class="swiper-slide">
+            <div class="pic"><img src="img/user_1.jpg" alt=""></div>
+            <div class="info">
+              <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ratione quasi perferendis necessitatibus illum iste dolorum soluta maiores ex ipsa nostrum eligendi facilis non maxime voluptate, animi magni, ut a? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur sunt atque labore accusamus!</p>
+              <p class="name"><a href="#">Rupert Wood</a></p>
+              <p class="job">Client</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><img src="img/user_2.jpg" alt=""></div>
+            <div class="info">
+              <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet non quod culpa aliquam ea molestiae quo distinctio praesentium, reprehenderit consequuntur minima. Culpa ullam laudantium dolores cupiditate in fugiat eius iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus commodi quod similique quaerat alias dolores.</p>
+              <p class="name"><a href="#">Rupert Wood</a></p>
+              <p class="job">Client</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><img src="img/user_3.jpg" alt=""></div>
+            <div class="info">
+              <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ex repudiandae accusantium. Aliquam reiciendis officiis doloribus culpa laboriosam placeat adipisci voluptas optio facere obcaecati? Impedit officiis omnis ad deserunt? Tenetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat provident.</p>
+              <p class="name"><a href="#">Rupert Wood</a></p>
+              <p class="job">Client</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section id="pro" class="content">
+    <div class="inner">
+      <h2 class="title moving_scroll"><span>Team of Professionals</span></h2>
+      <div class="team_wrap">
+        <div class="team">
+          <div class="pic"><a href="#"><img src="img/team_1.jpg" alt=""></a></div>
+          <div class="info">
+            <a href="#" class="name">Ryan Wilson</a>
+            <p class="job">Founder, Owners</p>
+          </div>
+        </div>
+        <div class="team">
+          <div class="pic"><a href="#"><img src="img/team_2.jpg" alt=""></a></div>
+          <div class="info">
+            <a href="#" class="name">Amanda Clark</a>
+            <p class="job">Measure Technician</p>
+          </div>
+        </div>
+        <div class="team">
+          <div class="pic"><a href="#"><img src="img/team_3.jpg" alt=""></a></div>
+          <div class="info">
+            <a href="#" class="name">Sam Robinson</a>
+            <p class="job">Installer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="popular" class="content">
+    <div class="inner">
+      <h2 class="title moving_scroll"><span>Popular products</span></h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_1.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Bardiglio Gray</a>
+              <p class="price">$520.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_2.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Carrara Marble</a>
+              <p class="price">$94.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_3.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Bastille Gray</a>
+              <p class="price">$200.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_4.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Old Wood Acacia</a>
+              <p class="price">$550.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_5.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Lymra Limestone</a>
+              <p class="price">$650.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_6.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Burdur Pearl</a>
+              <p class="price">$235.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_7.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Seagrass Limestone</a>
+              <p class="price">$254.00</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <a href="#" class="pic_wrap">
+                <img src="img/popular_8.png" alt="">
+                <a href="#" class="btn">Add to Cart</a>
+              </a>
+            </div>
+            <div class="info">
+              <a class="name">Ibiza white</a>
+              <p class="price">$650.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section id="blog" class="content">
+    <div class="inner">
+      <h2 class="title moving_scroll"><span>Latest Posts</span></h2>
+      <div class="post_wrap">
+        <div class="post">
+          <div class="info">
+            <div class="pic"><img src="img/blog_1.jpg" alt=""></div>
+            <p class="name">by <a href="#">Mary Lee</a></p>
+            <p class="date">May 17, 2019</p>
+          </div>
+          <div class="content">
+            <a href="#" class="content_wrap">
+              <div class="pic"><img src="img/post_1.jpg" alt=""></div>
+            </a>
+            <div class="post_title">
+              <a href="#">FLOORING PRO’S SECRETS THAT CAN RAISE YOUR HOME VALUE</a>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="pic"><img src="img/blog_2.jpg" alt=""></div>
+            <p class="name">by <a href="#">Rupert Wood</a></p>
+            <p class="date">May 04, 2019</p>
+          </div>
+          <div class="content">
+            <a href="#" class="content_wrap">
+              <div class="pic"><img src="img/post_2.jpg" alt=""></div>
+            </a>
+            <div class="post_title">
+              <a href="#">BEST LAMINATE & HARDWOOD FLOORING TRENDS FOR 2019</a>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="info">
+            <div class="pic"><img src="img/blog_3.jpg" alt=""></div>
+            <p class="name">by <a href="#">Ann Anderson</a></p>
+            <p class="date">May 17, 2019</p>
+          </div>
+          <div class="content">
+            <a href="#" class="content_wrap">
+              <div class="pic"><img src="img/post_3.jpg" alt=""></div>
+            </a>
+            <div class="post_title">
+              <a href="#">HOW TO PICK FLOORS / CARPET & GET THE BEST DEALS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="advice" class="content" style="background-image: url(img/bg_2.jpg);">
+    <div class="inner moving_scroll">
+      <h2 class="title"><span>READY FOR A NEW EXPERIENCE?</span></h2>
+      <p class="txt">Parquetry is ready to give your floor a completely new look, which is achieved throgh numerous solutions you can find at our store.</p>
+      <a href="#" class="btn"><span>Shop Now</span></a>
+    </div>
+  </section>
+  <section id="partners" class="content">
+    <div class="inner">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_1.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_2.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_3.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_4.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_5.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_6.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_7.png" alt=""></a></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic"><a href="#"><img src="img/client_8.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" class="content moving_scroll">
+    <div class="inner">
+      <div class="first">
+        <h2 class="logo"><a href="#">Logo</a></h2>
+        <p class="inform">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt culpa quidem maxime vel.</p>
+        <div class="info">
+          <div class="tel">
+            <i class="fas fa-phone"></i>
+            <a href="#">+82 000-0000</a>
+          </div>
+          <div class="time">
+            <i class="far fa-clock"></i>
+            <span>Mon-Sat: 07:00AM - 05:00PM</span>
+          </div>
+          <div class="location">
+            <i class="fas fa-location-arrow"></i>
+            <a href="#">4730 Crystal Springs Dr,<br>Los Angeles, CA 90027</a>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <h3 class="title">Newsletter</h3>
+        <p class="txt">Join our email list for tips and useful information.</p>
+        <div class="mail_wrap">
+          <label for="mail" class="mail_label">
+            Enter Your E-mail
+          </label>
+          <input id="mail" type="text">
+          <a href="#" class="btn"><span>subscribe</span></a>
+        </div>
+        <div class="sns_wrap">
+          <div class="follow">
+            <p>Follow Us</p>
+          </div>
+          <ul class="sns">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <h3 class="title">Gallery</h3>
+        <div class="photo_wrap">
+          <div class="photo">
+            <div class="pic"><a href="#"><img src="img/footer_1.jpg" alt=""></a></div>
+            <a href="#" class="btn"><i class="fas fa-search-plus"></i></a>
+          </div>
+          <div class="photo">
+            <div class="pic"><a href="#"><img src="img/footer_2.jpg" alt=""></a></div>
+            <a href="#" class="btn"><i class="fas fa-search-plus"></i></a>
+          </div>
+          <div class="photo">
+            <div class="pic"><a href="#"><img src="img/footer_3.jpg" alt=""></a></div>
+            <a href="#" class="btn"><i class="fas fa-search-plus"></i></a>
+          </div>
+          <div class="photo">
+            <div class="pic"><a href="#"><img src="img/footer_4.jpg" alt=""></a></div>
+            <a href="#" class="btn"><i class="fas fa-search-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg">
+      <div class="copy_wrap">
+        <p class="copyright">&copy; 2021 All rights reserved.</p>
+        <div class="privacy"><a href="#">PRIVACY POLICY</a></div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="btn_gotop"></a>
+</body>
+</html>
